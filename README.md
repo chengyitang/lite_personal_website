@@ -19,7 +19,7 @@ personal-website/
 2. **Clone the repository** to your local machine
 3. **Customize the content** in `index.html`
 4. **Update the styling** in `styles.css` if desired
-5. **Deploy to GitHub Pages** or any web hosting service
+5. **Deploy to GitHub Pages** or any web hosting service ([see demo](https://chengyitang.github.io/))
 
 ## 📄 License
 
