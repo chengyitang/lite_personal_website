@@ -1,6 +1,7 @@
 # Personal Website Template
 
 A clean, professional personal website template built with HTML and CSS, featuring a modern design with comfortable grey background and white text. Perfect for showcase their work online simply.
+ ([see demo](https://chengyitang.github.io/))
 
 ## 📁 File Structure
 
@@ -19,7 +20,7 @@ personal-website/
 2. **Clone the repository** to your local machine
 3. **Customize the content** in `index.html`
 4. **Update the styling** in `styles.css` if desired
-5. **Deploy to GitHub Pages** or any web hosting service ([see demo](https://chengyitang.github.io/))
+5. **Deploy to GitHub Pages** or any web hosting service
 
 ## 📄 License
 
