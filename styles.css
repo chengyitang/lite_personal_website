@@ -1,0 +1,400 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background-color: #ffffff;
+    color: #1a1a1a;
+    line-height: 1.7;
+    font-size: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-weight: normal;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #000000;
+    margin-bottom: 0.2em;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #000000;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.3rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+    color: #333333;
+    margin-top: 1.5rem;
+    margin-bottom: 0.3rem;
+}
+
+/* Header */
+header {
+    text-align: left;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #000000;
+}
+
+.header-flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.profile-photo {
+    flex-shrink: 0;
+    order: 2;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 0;
+    object-fit: cover;
+    border: 2px solid #e0e0e0;
+}
+
+.header-text {
+    flex: 1;
+    order: 1;
+}
+
+.header-content h1 {
+    margin-bottom: 0.3rem;
+}
+
+.header-content p {
+    font-size: 1.1rem;
+    color: #666666;
+    margin-bottom: 0.5rem;
+}
+
+.contact-info {
+    font-size: 0.95rem;
+    color: #888888;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.social-links {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.social-links a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 0.9rem;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.2s ease;
+}
+
+.social-links a:hover {
+    border-bottom: 1px solid #000000;
+}
+
+/* Main Content */
+main {
+    margin-top: 2rem;
+}
+
+.section {
+    margin-bottom: 3rem;
+}
+
+.section p {
+    margin-bottom: 1rem;
+    color: #333333;
+    text-align: justify;
+}
+
+/* Education */
+.education-item {
+    margin-bottom: 2rem;
+}
+
+.education-item h3 {
+    color: #000000;
+    margin-bottom: 0.2rem;
+}
+
+.degree {
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 0.2rem;
+}
+
+.details {
+    color: #666666;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.courses {
+    color: #555555;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* Experience */
+.experience-item {
+    margin-bottom: 2.5rem;
+}
+
+.experience-item h3 {
+    color: #000000;
+    margin-bottom: 0.2rem;
+}
+
+.company {
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 0.2rem;
+}
+
+.period {
+    color: #666666;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.project {
+    color: #555555;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+    font-size: 0.95rem;
+}
+
+.experience-item ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.experience-item li {
+    margin-bottom: 0.4rem;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Projects */
+.project-item {
+    margin-bottom: 2.5rem;
+}
+
+.project-item h3 {
+    color: #000000;
+    margin-bottom: 0.2rem;
+}
+
+.tech-stack {
+    color: #666666;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.project-item ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.project-item li {
+    margin-bottom: 0.4rem;
+    color: #333333;
+    line-height: 1.6;
+}
+
+.project-link {
+    color: #000000;
+    text-decoration: none;
+    font-size: 0.9rem;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.2s ease;
+}
+
+.project-link:hover {
+    border-bottom: 1px solid #000000;
+}
+
+/* Skills */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.skill-category {
+    margin-bottom: 1rem;
+}
+
+.skill-category h3 {
+    color: #000000;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.skill-category p {
+    color: #333333;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+/* Resume Link */
+.resume-link {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.2s ease;
+}
+
+.resume-link:hover {
+    border-bottom: 1px solid #000000;
+}
+
+/* Writing Section */
+.blog-item {
+    margin-bottom: 2rem;
+}
+
+.blog-item h3 {
+    margin-bottom: 0.5rem;
+}
+
+.blog-item h3 a {
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.2s ease;
+}
+
+.blog-item h3 a:hover {
+    border-bottom: 1px solid #000000;
+}
+
+.blog-abstract {
+    color: #555555;
+    margin-bottom: 0.3rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.blog-date {
+    color: #888888;
+    font-size: 0.85rem;
+    font-style: italic;
+}
+
+/* Beyond Work */
+#beyond-work ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#beyond-work li {
+    margin-bottom: 0.4rem;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e0e0e0;
+    text-align: center;
+}
+
+footer p {
+    color: #888888;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 20px 15px;
+        font-size: 15px;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    .header-flex {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1.5rem;
+    }
+    
+    .profile-photo {
+        order: 1;
+    }
+    
+    .header-text {
+        order: 2;
+    }
+    
+    .profile-image {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .skills-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .social-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 15px 10px;
+        font-size: 14px;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    .section {
+        margin-bottom: 2rem;
+    }
+    
+    .experience-item,
+    .project-item {
+        margin-bottom: 2rem;
+    }
+} 
